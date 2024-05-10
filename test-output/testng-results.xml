@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="11" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-10T03:30:13 IST" name="Suite" finished-at="2024-05-10T04:02:41 IST" duration-ms="1948111">
+    <groups>
+    </groups>
+    <test started-at="2024-05-10T03:30:13 IST" name="firefoxTest" finished-at="2024-05-10T03:43:50 IST" duration-ms="817049">
+      <class name="pack.test">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:pack.test@3590fc5b]" started-at="2024-05-10T03:30:13 IST" name="setUp" finished-at="2024-05-10T03:30:25 IST" duration-ms="12134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="resolution(int,int)[pri:0, instance:pack.test@3590fc5b]" started-at="2024-05-10T03:30:25 IST" name="resolution" data-provider="resolutions" finished-at="2024-05-10T03:32:16 IST" duration-ms="111351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1920]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1080]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resolution -->
+        <test-method signature="resolution(int,int)[pri:0, instance:pack.test@3590fc5b]" started-at="2024-05-10T03:32:16 IST" name="resolution" data-provider="resolutions" finished-at="2024-05-10T03:34:26 IST" duration-ms="129612" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1366]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[768]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resolution -->
+        <test-method signature="resolution(int,int)[pri:0, instance:pack.test@3590fc5b]" started-at="2024-05-10T03:34:26 IST" name="resolution" data-provider="resolutions" finished-at="2024-05-10T03:36:27 IST" duration-ms="121295" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1536]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[864]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resolution -->
+        <test-method signature="resolution(int,int)[pri:0, instance:pack.test@3590fc5b]" started-at="2024-05-10T03:36:27 IST" name="resolution" data-provider="resolutions" finished-at="2024-05-10T03:39:10 IST" duration-ms="162751" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[360]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[640]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resolution -->
+        <test-method signature="resolution(int,int)[pri:0, instance:pack.test@3590fc5b]" started-at="2024-05-10T03:39:10 IST" name="resolution" data-provider="resolutions" finished-at="2024-05-10T03:41:15 IST" duration-ms="125146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[414]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[896]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resolution -->
+        <test-method signature="resolution(int,int)[pri:0, instance:pack.test@3590fc5b]" started-at="2024-05-10T03:41:15 IST" name="resolution" data-provider="resolutions" finished-at="2024-05-10T03:43:47 IST" duration-ms="151845" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[375]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[667]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resolution -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pack.test@3590fc5b]" started-at="2024-05-10T03:43:47 IST" name="tearDown" finished-at="2024-05-10T03:43:50 IST" duration-ms="2218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pack.test -->
+    </test> <!-- firefoxTest -->
+    <test started-at="2024-05-10T03:43:50 IST" name="chromeTest" finished-at="2024-05-10T04:02:41 IST" duration-ms="1130865">
+      <class name="pack.test">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:pack.test@217ed35e]" started-at="2024-05-10T03:43:50 IST" name="setUp" finished-at="2024-05-10T03:43:56 IST" duration-ms="6580" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="resolution(int,int)[pri:0, instance:pack.test@217ed35e]" started-at="2024-05-10T03:43:56 IST" name="resolution" data-provider="resolutions" finished-at="2024-05-10T03:47:11 IST" duration-ms="194685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1920]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1080]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resolution -->
+        <test-method signature="resolution(int,int)[pri:0, instance:pack.test@217ed35e]" started-at="2024-05-10T03:47:11 IST" name="resolution" data-provider="resolutions" finished-at="2024-05-10T03:50:08 IST" duration-ms="177132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1366]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[768]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resolution -->
+        <test-method signature="resolution(int,int)[pri:0, instance:pack.test@217ed35e]" started-at="2024-05-10T03:50:08 IST" name="resolution" data-provider="resolutions" finished-at="2024-05-10T03:52:49 IST" duration-ms="161192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1536]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[864]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resolution -->
+        <test-method signature="resolution(int,int)[pri:0, instance:pack.test@217ed35e]" started-at="2024-05-10T03:52:49 IST" name="resolution" data-provider="resolutions" finished-at="2024-05-10T03:55:39 IST" duration-ms="170017" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[360]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[640]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resolution -->
+        <test-method signature="resolution(int,int)[pri:0, instance:pack.test@217ed35e]" started-at="2024-05-10T03:55:39 IST" name="resolution" data-provider="resolutions" finished-at="2024-05-10T03:58:03 IST" duration-ms="143394" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[414]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[896]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"https://www.getcalley.com/calley-pro-features/"}
+  (Session info: chrome=124.0.6367.119)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c66a49e3c2473abd7b228b408ac87afb, findElement {using=link text, value=https://www.getcalley.com/calley-pro-features/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.155 (df4f029328b..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58693}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58693/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c66a49e3c2473abd7b228b408ac87afb]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"https://www.getcalley.com/calley-pro-features/"}
+  (Session info: chrome=124.0.6367.119)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c66a49e3c2473abd7b228b408ac87afb, findElement {using=link text, value=https://www.getcalley.com/calley-pro-features/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.155 (df4f029328b..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58693}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58693/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c66a49e3c2473abd7b228b408ac87afb
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at pack.test.capturescreenshot(test.java:73)
+at pack.test.resolution(test.java:53)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resolution -->
+        <test-method signature="resolution(int,int)[pri:0, instance:pack.test@217ed35e]" started-at="2024-05-10T03:58:03 IST" name="resolution" data-provider="resolutions" finished-at="2024-05-10T04:02:40 IST" duration-ms="276586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[375]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[667]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resolution -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pack.test@217ed35e]" started-at="2024-05-10T04:02:40 IST" name="tearDown" finished-at="2024-05-10T04:02:41 IST" duration-ms="1035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pack.test -->
+    </test> <!-- chromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
